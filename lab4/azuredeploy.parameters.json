@@ -1,0 +1,23 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUsername": {
+        "value": "fortiadmin"
+      },
+      "adminPassword": {
+        "reference": {
+          "keyVault": {
+            "id": "/subscriptions/2f96c44c-cfb2-4621-bd36-65ba45185e0c/resourcegroups/keyVaults/providers/Microsoft.KeyVault/vaults/ftgtmahkeyvault"
+          },
+          "secretName": "ubuntuDefaultPassword"
+        }
+      },
+      "vnetName": {
+          "value": "ubuntuVnet"
+      },
+      "subnetName": {
+          "value": "ubuntuSubnet"
+      }
+    }
+  }
