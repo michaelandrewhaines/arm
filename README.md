@@ -1,2 +1,2 @@
 # arm
-ARM Deep Dive Labs
+Azure Resource Manager Deep Dive Labs
