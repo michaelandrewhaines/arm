@@ -87,7 +87,7 @@
         "nicName": "[concat(parameters('vmName'), '-nic')]",
         "pipName": "[concat(parameters('vmName'), '-pip')]",
         "pipType": "Dynamic",
-        "vmSize": "Standard_B1s",
+        "vmSize": "Standard_B2s",
         "imagePublisher": "Canonical",
         "imageOffer": "UbuntuServer",
         "storageAccountType": "Standard_LRS",
