@@ -44,7 +44,7 @@
         "numberOfDataDisks": {
            "type": "int",
            "defaultValue": 1,
-           "maxValue": 2,
+           "maxValue": 4,
            "metadata": {
                 "description": "Number of data disks for the virtual machine"
             }
