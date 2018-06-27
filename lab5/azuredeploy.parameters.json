@@ -3,12 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "adminUsername": {
-        "value": "richeney"
+        "value": "fortiadmin"
       },
       "adminPassword": {
         "reference": {
           "keyVault": {
-            "id": "/subscriptions/2d31be49-d959-4415-bb65-8aec2c90ba62/resourceGroups/keyVaults/providers/Microsoft.KeyVault/vaults/richeneyKeyVault"
+            "id": "/subscriptions/2f96c44c-cfb2-4621-bd36-65ba45185e0c/resourcegroups/KeyVault/providers/Microsoft.KeyVault/vaults/ftgtmahkeyvault"
           },
           "secretName": "ubuntuDefaultPassword"
         }
